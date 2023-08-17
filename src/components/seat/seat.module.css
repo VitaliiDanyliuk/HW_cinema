@@ -1,0 +1,11 @@
+.oneseat {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+.free {
+    cursor: pointer;
+}
+.occupied {
+    cursor: not-allowed;
+}

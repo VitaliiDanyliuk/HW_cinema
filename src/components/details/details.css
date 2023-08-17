@@ -1,0 +1,63 @@
+.content {
+  width: 100%;
+  height: 75vh;
+  background-image: url("https://assets.videomaker.com/2021/04/vintage-film-projector-and-film-screening-FSH2PGV-scaled.jpg");
+  background-position: left;
+}
+.name_star {
+  font-size: 54px;
+  font-weight: 600;
+  color: white;
+}
+.deskription {
+  width: 350px;
+  height: 600px;
+  background-color: silver;
+  overflow: auto;
+}
+.bottom_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  width: 100%;
+  height: 720px;
+  margin-top: 25px;
+  background-color: black;
+}
+
+.top_info {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.img_star img {
+  width: 320px;
+  height: 420px;
+  position: absolute;
+  top: 30vh;
+  bottom: 0;
+  left: 15vw;
+  right: 0;
+}
+.film_img img {
+  width: 350px;
+  height: 400px;
+}
+/* .deskription_text {
+  padding: 10px;
+  box-sizing: border-box;
+} */
+.title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.deskription_text {
+  width: 325px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

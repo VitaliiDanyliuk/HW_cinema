@@ -1,0 +1,114 @@
+.contents {
+  width: 100%;
+  height: 65vh;
+  background-size: 35%;
+  background-position: center;
+}
+.poster_img img {
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 30vh;
+  bottom: 0;
+  left: 15vw;
+  right: 0;
+}
+.title_films {
+  width: 465px;
+  font-size: 64px;
+  font-weight: 600;
+  color: white;
+}
+.to_book {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.to_book button {
+  font-size: 20px;
+  width: 120px;
+  height: 35px;
+  background-color: #ffda18;
+  border: 1px solid #ffda18;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.bottom_inf {
+  width: 100%;
+  height: 75vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top_inf {
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: -15vh;
+}
+.rating {
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+}
+.overview {
+  font-size: 42px;
+  font-weight: 600;
+  color: #ffda18;
+}
+.text {
+  width: 70%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 36px;
+  gap: 25px;
+}
+.sessions {
+  width: 100%;
+  height: 50vh;
+  background-color: black;
+  margin-top: 35vh;
+}
+.time_book {
+  font-size: 50px;
+  color: #ffda18;
+}
+.block_time {
+  margin-top: 25rem;
+  width: 30%;
+  height: 300px;
+  padding: 50px;
+}
+.time {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 40px;
+  padding: 10px;
+}
+.time form input[type="radio" i] {
+  width: 25px;
+  height: 25px;
+}
+.btn_register {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  /* width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black; */
+}
+.btn_register button {
+  width: 190px;
+  height: 50px;
+  background-color: #ffda18;
+  font-size: 24px;
+  cursor: pointer;
+}

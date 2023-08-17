@@ -1,0 +1,61 @@
+.divmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+}
+.divmain div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 35px;
+}
+.divmain div::before {
+    content: '';
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+} 
+.divmain div:nth-child(1)::before {
+    background-image: url('../../images/calendar.png');
+}
+.divmain div:nth-child(2)::before {
+    background-image: url('../../images/ticket.png');
+}
+.divmain div:nth-child(3)::before {
+    background-image: url('../../images/buy_small.png');
+}
+
+.divmain div:nth-child(2) {
+    width: 65%;
+}
+.divprevious {
+    width: 400px;
+    height: 50px;
+    color: lightgray;
+    overflow: hidden;
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+.divprevious li {
+    margin-left: 30px;
+}
+.divprevious:hover {
+    height: 130px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.divprevious:hover li {
+    margin: 10px 30px;
+}

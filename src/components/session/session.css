@@ -1,0 +1,12 @@
+.session_time {
+  width: 130px;
+  height: 60px;
+  color: white;
+}
+.session_time > form {
+  box-sizing: content-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}

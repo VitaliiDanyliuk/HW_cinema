@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 
+.screen {
+  width: 100%;
+  height: 75vh;
+  background-image: url("https://images.thedirect.com/media/article_full/mcu-marvel-phase-4-5-delays.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.front {
+  padding: 50px;
+  width: 40%;
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  z-index: 10;
+}
+.screen:after {
+  content: "";
+  position: absolute;
+  top: 90px;
+  left: 0;
+  right: 0;
+  bottom: 120px;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+} */
+.container_person,
+.container_movie {
+  padding: 25px 0px 25px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.content_prsn,
+.content_flm {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.card_prs,
+.card_flm {
+  margin-top: 30px;
+  width: 200px;
+  height: 425px;
+  color: white;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a1f38;
+  box-sizing: content-box;
+}
+.card_prs img,
+.card_flm img {
+  width: 200px;
+  height: 260px;
+}
+
+.name {
+  font-size: 18px;
+  padding: 10px;
+}
+.name_film_card {
+  text-align: center;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  box-sizing: content-box;
+}
+
+.part_card {
+  height: 155px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
