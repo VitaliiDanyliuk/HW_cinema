@@ -1,0 +1,12 @@
+.carousel-item {
+  width: 100vw;
+}
+
+.carousel-item img,
+.carousel-iinner img {
+  max-width: 100%;
+}
+
+.card_prs img {
+  width: 100%;
+}

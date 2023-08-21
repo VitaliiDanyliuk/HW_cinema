@@ -4,6 +4,8 @@ import { DetailsFilms } from "../detailsFilm/detailsFilm";
 import { BrowserRouter } from "react-router-dom";
 import { Route, Routes } from "react-router";
 import Booking from "../booking/booking";
+import "./parent.css"
+
 
 export function ParentComponent() {
   return (

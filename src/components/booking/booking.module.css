@@ -1,7 +1,7 @@
 .divmain {
   background: linear-gradient(170.53deg, #2E1371 2.71%, #130B2B 97.75%);
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   position: relative;
   display: flex;
   flex-direction: column;
